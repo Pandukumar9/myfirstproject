@@ -1,0 +1,26 @@
+form{
+  margin: 20px;
+}
+
+.abc{
+  text-justify: auto;
+  border-radius: 20px;
+}
+a{
+  color: white;
+  background-color:rgb(243, 9, 243);
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 6px;
+}
+a:hover{
+  color: rgb(0, 0, 0);
+  background-color:rgb(10, 226, 255);
+}
+.container{
+  width: 346px;
+  margin: 200px 500px;
+  padding: 20px;
+  background-color:rgba(158, 141, 141, 0.3);
+  border-radius: 7px;
+}

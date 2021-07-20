@@ -1,0 +1,22 @@
+<div class="container">
+  <form style="margin-top: 40px;">
+    <h2>Registration Form</h2>
+    <div class="form-group">
+      <label>First name:</label>
+      <input type="text" [style.color]="isred? 'red' : 'yellow' " (mouseover)="onmouseover()" (mouseout)="onmouseout()" placeholder="enter your first name" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Last name:</label>
+      <input type="text" placeholder="enter your last name" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="text" placeholder="enter your email" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Mobile Number:</label>
+      <input type="tel" placeholder="enter your number" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,14 @@
+<h5><b>Your selected course list ={{courseid}}</b></h5>
+
+<nav>
+  <button class="btn btn-primary" (click)="toPrevous()">previous</button>&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-primary" (click)="toNext()">next</button>&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-success" (click)="toBack()">Back</button>
+</nav>
+<br>
+<nav>
+  <button class="btn btn-primary" (click)="showDuration()">CourseDuration</button>&nbsp;&nbsp;&nbsp;
+  <button class="btn btn-success" (click)="showFee()">CourseFee</button>
+</nav>
+
+<router-outlet></router-outlet>

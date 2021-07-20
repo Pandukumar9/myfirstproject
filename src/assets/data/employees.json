@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"angular","age": 24},
+  {"id":2,"name":"java","age": 24},
+  {"id":3,"name":".net","age": 24},
+  {"id":4,"name":"devops","age": 24}
+]

@@ -1,0 +1,43 @@
+
+<!-- <button type="button" *ngIf="!vinay" (click)="toggleMe()">click</button>
+{{vinay}} -->
+<!-- event binding -->
+<button type="button" (click)="onClick()">event binding</button>
+<h2>{{name1}}</h2>
+<br><br><hr>
+<!-- //property binding -->
+<input type="text" value="enter name"><br>
+<input type="text" [value]="ppt">
+<br><br><hr>
+<!--//class binding -->
+<p class="upi">helloo</p>
+<h1 [class]="abc">class binding<h1>
+	<br>
+<h1 [class.textsize]="required1">class binding<h1>
+  <h1 [ngClass]="mystyles">heeellp</h1>
+			<hr>
+      <!-- //sTYLE binding -->
+<p style="color: rgb(134, 133, 133);">pandu</p>
+
+<p [style.font-size]="'100px'">sTYLE binding 1</p>
+
+<p [style.color]="mycolor">sTYLE binding 2</p>
+
+<p [style.color]="required? 'green' : 'red'">sTYLE binding 3</p>
+
+<p [ngStyle]="mystyles1">sTYLE binding GROUP 4</p>
+<hr>
+	<!-- //Interpolation -->
+
+	<h4>{{xyz}}</h4>
+	<hr>
+
+<!-- //TWO WAY DATA binding  [()] [(ngModel)]=data-->
+<label>Two way databinding:</label>
+<input placeholder="enter any here" type="text" [(ngModel)]=data>  
+
+<h2>here we can display data by using Interpolation:&nbsp;&nbsp;{{data}}</h2>
+<br>
+
+
+

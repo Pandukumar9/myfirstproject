@@ -1,0 +1,19 @@
+span{
+  color: white;
+  background-color: blueviolet;
+}
+li{
+  list-style-type: none;
+  font-weight: bold;
+}
+ li:hover{
+  color: white;
+  background-color: rgba(63, 40, 40, 0.6);
+}
+li:active{
+  color: rgb(245, 13, 13);
+}
+.textcolor{
+  color: rgb(168, 24, 24);
+  background-color: rgba(132, 255, 0, 0.6);
+}

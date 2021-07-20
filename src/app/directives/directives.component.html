@@ -1,0 +1,54 @@
+                              <!-- If conditons -->
+<!-- 1.normal use -->
+<h1 *ngIf="true">
+   wel come to directives concept 1
+</h1><br>
+<!-- 2.conditional based use -->
+<h2 *ngIf="required">
+  wel come to directives concept 2
+</h2><br>
+<!-- 3.conditional based and separate tag for else block use -->
+<h3 *ngIf="xyz; else elseBlock">
+      this is true block
+</h3>
+<ng-template #elseBlock>
+  this is false block
+</ng-template><br>
+<!-- 4.conditional based and separate tag for if and else block use -->
+<h4 *ngIf="abcd; then trueBlock else elseBlock">
+   
+</h4>
+<ng-template #trueBlock>
+  this is true block
+  </ng-template>
+<ng-template #elseBlock>
+this is false block
+</ng-template><hr>
+                              <!-- For Loop -->
+                             
+<h1 *ngFor="let x of subjects">
+  {{x}}
+</h1><br>
+<h1 *ngFor="let x of subjects; index as i">
+  {{i}}-{{x}}
+</h1><br>
+<h1 *ngFor="let x of subjects; first as f">
+  {{f}}-{{x}}
+</h1><br>
+<h1 *ngFor="let x of subjects; last as l">
+  {{l}}-{{x}}
+</h1><br>
+<h1 *ngFor="let x of subjects; even as e">
+  {{e}}-{{x}}
+</h1><br>
+<h1 *ngFor="let x of subjects; odd as o">
+  {{o}}-{{x}}
+</h1><br><hr>
+                              <!-- switch conditions -->
+
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">you picked red color</div>
+  <div *ngSwitchCase="'blue'">you picked blue color</div>
+  <div *ngSwitchCase="'gold'">you picked gold color</div>
+  <div *ngSwitchDefault> inValid choice</div>
+</div>

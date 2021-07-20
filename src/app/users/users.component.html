@@ -1,0 +1,17 @@
+<!-- Data bindings-->
+<!-- html to ts => event binding-->
+
+ <button (mouseover)="onSubmit()" type="button" class="btn btn-danger">click here</button>
+
+<br>
+{{xyz}}
+
+<br>
+{{abc}} 
+<!-- two way data binding-->
+ <input type="text" placeholder="please enter name" [(ngModel)]="title">
+
+{{title}} 
+<!-- <input type="text" [value]="ppt"> -->
+
+<!-- <input type="text" placeholder="enter your name" > -->

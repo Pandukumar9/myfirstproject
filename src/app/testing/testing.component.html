@@ -1,0 +1,30 @@
+<!-- <div>
+  <button disabled>hello</button>
+  <br>
+  <button [disabled]="!isCheck" >hello</button>
+</div> -->
+
+<button type="button" (click)="onSelecting()">click me</button>
+
+<input type="text" value="enter your name">
+<input type="text" [value]="jack">
+
+
+<p class="hod">class bind</p>
+<p [class]="name">class bind</p>
+
+<p [class.hod]="required">class bind</p>
+
+<p [ngClass]="Group">class bind</p>
+
+
+<h2 [style.color]="'green'">style bind</h2>
+<h2 [style.color]="styebind">style bind</h2>
+<h2 [style.color]="required1? 'green' : 'red' ">style bind</h2>
+<h2 [ngStyle]="Group1">style bind</h2>
+
+<h4>{{inter}}</h4>
+
+<input type="text" [(ngModel)]=data1>
+
+<h2>{{data1}}</h2>

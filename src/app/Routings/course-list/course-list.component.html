@@ -1,0 +1,6 @@
+<br>
+<ul>
+  <li (click)="onSelected(x)" [class.textcolor]="x.id === selectedid" [class.selected]="isSelected(x)" *ngFor="let x of course">
+      <span class="badge">{{x.id}}</span>&nbsp;{{x.name}}
+  </li>
+</ul>
